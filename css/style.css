@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #141414;
+    --card-color: #1F1F1F;
+    --button-color: #333333;
+    --button-color-hover: #626262;
+    --green-text: #C2E351;
+    --white-color: #E5E5E5;
+}
+
+body {
+    font-family: "Roboto", sans-serif; 
+}
+
+main {
+    background-color: var(--background-color);
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--card-color);
+    height: 70vh;
+    width: 25vw;
+    border-radius: 5%;
+}
+
+img {
+    height: 20vh;
+    width: 10vw;
+    margin: 2em 6em 1em;
+    border-radius: 50%;
+}
+
+h1 {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 0.5;
+}
+
+h2 {
+    color: var(--green-text);
+    text-align: center;
+    font-size: 0.90em;
+    margin-bottom: 1em;
+}
+
+p {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 0.90em;
+    margin-bottom: 1em;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 2%;    
+}
+
+
+button {
+    background-color: var(--button-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 0.5em;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    width: 20em;
+    padding: 0.90em;
+    font-family: "Roboto", sans-serif;
+}
+
+button:hover{
+    background-color: var(--button-color-hover);
+}
