@@ -37,6 +37,12 @@ main {
     border-radius: 5%;
 }
 
+.main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
     height: 20vh;
     width: 10vw;
